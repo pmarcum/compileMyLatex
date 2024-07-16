@@ -5,5 +5,9 @@ If you use BibMan as your reference manager, then BibMan will install compileMyL
 
 UPDATES
 
+* v07162024  07/16/2024
+  - Added script to create a pdf of the error messages if compilation fails.
+  - Script finds the line number of each error or warning, extracts that line number from the .tex file, and prints that offending line immediately after the error / warning regarding that line in the .tex file.
+    
 * v07122014  07/12/2024
   - first commit
